@@ -1,6 +1,7 @@
 import { StyleSheet } from "react-native";
 import { temas } from "../../global/styles/temas";
 
+
 export const estilos = StyleSheet.create({
     container: {
       flex: 1,
@@ -13,7 +14,7 @@ export const estilos = StyleSheet.create({
       fontSize: 40,
       color:  temas.colors.titulo,
       textAlign:'center',
-      fontFamily:'Rajdhani',
+      fontFamily:temas.fonts.titleRaj700,
       marginBottom: 16,
     },
     subTitulo:{
@@ -21,6 +22,7 @@ export const estilos = StyleSheet.create({
       color: '#FFFFFF',
       textAlign:'center',
       marginBottom: 200,
+      fontFamily:temas.fonts.textInter400,
     },
     conteudo:{
       marginTop: -45,
