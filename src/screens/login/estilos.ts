@@ -19,10 +19,10 @@ export const estilos = StyleSheet.create({
     },
     subTitulo:{
       fontSize: 17,
-      color: '#FFFFFF',
+      color: '#000000',
       textAlign:'center',
       marginBottom: 200,
-      fontFamily:temas.fonts.textInter400,
+      fontFamily:temas.fonts.titleInter700,
     },
     conteudo:{
       marginTop: -45,

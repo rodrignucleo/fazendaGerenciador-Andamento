@@ -6,7 +6,7 @@ export const estilos = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         marginTop: -170,
-        marginLeft: 30,
+        marginLeft: 40,
         backgroundColor: temas.colors.buttonColor,
         height: '12%',
         width:150,
@@ -19,13 +19,14 @@ export const estilos = StyleSheet.create({
         textAlign: 'center',
         fontSize: 15,
         fontFamily:temas.fonts.titleRaj700,
+        
     },
     iconWrapper:{
         height: 20,
         width: 50,
        justifyContent: 'center',
        alignItems: 'center',
-       borderRightWidth: 1,
+       borderRightWidth: 2,
     },
     icone:{
         height: 35,

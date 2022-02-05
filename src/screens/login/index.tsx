@@ -1,4 +1,3 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import {
   Text, 
@@ -17,7 +16,7 @@ import { ButtoIcon } from '../../components/ButtonIcon';
 export function Login() {
   return (
     <View style={estilos.container}>
-      <StatusBar style="auto" hidden/>
+    
       <ImageBackground 
         source={FundoLogin}
         style={estilos.imageBackground}
